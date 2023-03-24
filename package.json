@@ -1,0 +1,27 @@
+{
+  "name": "goit-js-hw-08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrinaDru/goit-js-hw-08.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrinaDru/goit-js-hw-08/issues"
+  },
+  "homepage": "https://github.com/IrinaDru/goit-js-hw-08/",
+  "dependencies": {
+    "simplelightbox": "^2.12.1",
+    "validator": "^13.9.0"
+  }
+}
