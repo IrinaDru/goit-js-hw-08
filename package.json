@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
-
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,12 @@
   "bugs": {
     "url": "https://github.com/IrinaDru/goit-js-hw-08/issues"
   },
-  "homepage": "https://github.com/IrinaDru/goit-js-hw-08/",
+  "homepage": "https://github.com/IrinaDru/goit-js-hw-08#readme",
   "dependencies": {
     "simplelightbox": "^2.12.1",
     "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
   }
 }
